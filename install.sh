@@ -1,4 +1,3 @@
-sudo rfkill unblock wlan
 sudo lighttpd-enable-mod fastcgi-php    
 sudo service lighttpd force-reload
 sudo systemctl restart lighttpd.service
